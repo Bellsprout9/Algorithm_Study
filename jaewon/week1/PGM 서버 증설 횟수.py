@@ -1,8 +1,7 @@
 def solution(players, m, k):
     temp_server = [0] * len(players)
     total_server = [0] * len(players)
-    needs_server = [0] * len(players)
-    # 시간당 서버 몇 개가 필요한지, needs_server
+    needs_server = [0] * len(players) # 시간당 서버 몇 개가 필요한지, needs_server
     
     for i in range(len(players)):
         if players[i] >= m :
